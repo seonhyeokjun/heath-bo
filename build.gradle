@@ -33,6 +33,9 @@ dependencies {
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
+
+    // flyway
+    implementation 'org.flywaydb:flyway-core'
 }
 
 tasks.named('test') {
